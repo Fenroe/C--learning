@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Enter a price");
+double price = Convert.ToDouble(Console.ReadLine());
+double priceInCents = price * 100;
+Console.WriteLine("Enter a tip percentage");
+double tipPercentage = Convert.ToDouble(Console.ReadLine());
+double tip = Math.Round(priceInCents * (tipPercentage / 100), 0);
+double totalWithTip = priceInCents + tip;
+Console.WriteLine("How many people will split the bill?");
+double numberOfPeople = Convert.ToDouble(Console.ReadLine());
+double shareInCents = Math.Round(totalWithTip / numberOfPeople, 0);
+double share = shareInCents / 100;
+Console.WriteLine($"Each person will pay ${share}");

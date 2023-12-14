@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandNameGenerator", "BandNameGenerator\BandNameGenerator.csproj", "{158C8B20-2006-445A-86F5-32C3E9839BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{158C8B20-2006-445A-86F5-32C3E9839BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158C8B20-2006-445A-86F5-32C3E9839BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158C8B20-2006-445A-86F5-32C3E9839BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158C8B20-2006-445A-86F5-32C3E9839BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
